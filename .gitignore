@@ -1,0 +1,8 @@
+/node_modules/
+/.env
+/server.crt
+/server.key
+dist/
+.idea/
+.parcel-cache/
+/coverage/
