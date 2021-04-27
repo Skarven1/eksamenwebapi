@@ -4,15 +4,19 @@ import * as ReactDOM from "react-dom";
 
 function ChatApplication() {
     return <>
-        <header>Chat App</header>
+        <header>
+            <h1>Chat App</h1>
+        </header>
         <main>
             <div id="chatLog"></div>
-            <footer>
-                <form><input type='text' />
-                    <button>Submit</button>
-                </form>
-            </footer>
         </main>
+        <footer>
+            <form>
+                <input type='text' autoFocus={true} />
+                <button>Submit</button>
+            </form>
+        </footer>
+
         </>;
 }
 
